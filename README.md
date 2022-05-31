@@ -12,7 +12,7 @@ _**Second Approach (failed) :**_ loading XML Data Into Snowflake from a Local Fi
 
 _**Third Approach (failed)** **:**_ This time I tried to write java code in windows powershell to split xml data in chunks but this also didn't worked out. The script was as follows-
                           
-                         _ $limit = 1000
+                          $limit = 1000
                           $logpath = "C:\Users\neoarya\Desktop\week5\askubuntu.com\PostHistory.xml"
                           [xml]$xml = "<logroot>$(Get-Content $logpath)</logroot>"
                           $index = 1
@@ -37,7 +37,7 @@ _**Third Approach (failed)** **:**_ This time I tried to write java code in wind
                                else{
                             $index++;
                                }
-                          }_
+                          }
 
 Screenshot : <img width="960" alt="Screenshot 2022-05-31 223856" src="https://user-images.githubusercontent.com/104750261/171236793-babbc5d4-7216-4b89-93ec-c792b1fa0d53.png">
 
