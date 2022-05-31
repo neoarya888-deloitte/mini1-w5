@@ -6,6 +6,8 @@ Try running the following commands:
 - dbt run
 - dbt test
 
+## Description of workflow for Mini Assignment 1:
+
 _**First Approach (failed) :**_ directly loading the xml files into snowflakes after creating all the tables. Due to large size and many columns in xml file, snowflake rejected to load data in table. This method is only applicable for csv files
 
 _**Second Approach (failed) :**_ loading XML Data Into Snowflake from a Local File System Using COPY Command. Now this method worked 20% but there was problem related to snow sql utility like after logging into snowflake using commandline, the put function gave error (related to aws).
