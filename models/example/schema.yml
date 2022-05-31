@@ -1,0 +1,56 @@
+
+version: 2
+
+models:
+  - name: Milestone1
+    description: "Milestone1"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+
+
+  - name: Milestone2
+    description: "Milestone2"
+    columns:
+      - name: BODY
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+
+
+  - name: Milestone3
+    description: "Milestone3"
+    columns:
+      - name: BODY
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+
+
+  - name: Milestone4
+    description: "Milestone4"
+    columns:
+      - name: name
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+
+
+  - name: Milestone5
+    description: "Milestone5"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
