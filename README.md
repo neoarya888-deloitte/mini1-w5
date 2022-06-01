@@ -46,6 +46,13 @@ Screenshot : <img width="960" alt="Screenshot 2022-05-31 223856" src="https://us
 _**Fourth Approach (partially successful)**_ : Now finally after trying all the above methods and due to lack of time I decided to just convert some xml files to csv files and load its data in tables(created manually) of snowflakes, those xml files were badges and tags. Other xml files were too large to be converted into csv.
 Later, I declared all the models and wrote the query for every milestones. The dbt run was running the project successfully.
 
-Screenshot : <img width="676" alt="image" src="https://user-images.githubusercontent.com/104750261/171244268-3eb177b2-586a-435f-924c-2b8ff60d936f.png">
+**Screenshot of dbt_run:** <img width="676" alt="image" src="https://user-images.githubusercontent.com/104750261/171244268-3eb177b2-586a-435f-924c-2b8ff60d936f.png">
+
+**Screenshot of Milestone1_query:** <img width="958" alt="image" src="https://user-images.githubusercontent.com/104750261/171349580-8ebd1da6-c528-46a3-885d-9ebf59586eea.png">
+**Screenshot of Milestone2_query:** <img width="960" alt="image" src="https://user-images.githubusercontent.com/104750261/171349973-98be69f4-2edc-42c5-9a7c-44c7ab8a5797.png">
+**Screenshot of Milestone3_query:** <img width="960" alt="image" src="https://user-images.githubusercontent.com/104750261/171350173-e86914c9-180c-4d83-ace8-9fd556b1441c.png">
+**Screenshot of Milestone4_query:** <img width="960" alt="image" src="https://user-images.githubusercontent.com/104750261/171349250-ebc0c4e2-9866-475b-a9e6-bb8d6937f257.png">
+**Screenshot of Milestone5_query:** <img width="960" alt="image" src="https://user-images.githubusercontent.com/104750261/171349506-c69d3fa3-b5d1-498a-89cf-330d53a074aa.png">
+
 
 
